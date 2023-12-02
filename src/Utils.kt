@@ -14,6 +14,11 @@ fun readInput(name: String) = Path("src/$name.txt").readLines()
 fun readInputDay1(name: String) = Path("src/day1/$name.txt").readLines()
 
 /**
+ * Reads lines from the given input txt file for day2.
+ */
+fun readInputDay2(name: String) = Path("src/day2/$name.txt").readLines()
+
+/**
  * Converts string to md5 hash.
  */
 fun String.md5() = BigInteger(1, MessageDigest.getInstance("MD5").digest(toByteArray()))
