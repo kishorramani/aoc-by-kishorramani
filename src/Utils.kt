@@ -19,6 +19,7 @@ fun readInputDay1(name: String) = Path("src/day1/$name.txt").readLines()
 fun readInputDay2(name: String) = Path("src/day2/$name.txt").readLines()
 
 fun readInputDay3(name: String) = Path("src/day3/$name.txt").readLines()
+fun readInputDay4(name: String) = Path("src/day4/$name.txt").readLines()
 
 /**
  * Converts string to md5 hash.
